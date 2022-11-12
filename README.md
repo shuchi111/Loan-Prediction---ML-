@@ -8,7 +8,7 @@ In our banking system, banks have many products to sell but main source of incom
 (ii) Data Cleaning and
 (iii)Performance Evaluation. 
 Experimental tests found that the Naïve Bayes model has better performance than other models in terms of loan forecasting.
-Key Words: Big data, Machine Learning, SVM, Naïve Bayes,Prediction.
+Key Words:  Machine Learning, SVM, Naïve Bayes,Prediction.
 
 1. INTRODUCTION -
 
@@ -30,13 +30,9 @@ This paper is divided into four sections---->
 2.“Exploring the Machine Learning Algorithm for Prediction the Loan Sanctioning Process” Author- E. Chandra Blessie, R Rekha - Year- 2019 Extending credits to corporates and individuals for the smooth functioning of growing economies like India is inevitable. As increasing number of customersapply for loans in the banks and non- banking financial companies (NBFC), it is really challenging for banks and NBFCs with limited capital to device a standard resolution and safe procedure to lend money to its borrowers for their financial needs.
 
 Inaddition, in recent times NBFC inventories have suffered a significant downfall in terms of the stock price. It has contributed to a contagion that has also spread to other financial stocks, adversely affecting the benchmark in recent times.In this paper, an attempt is made to condense the risk involved in selecting the suitable person who could repay the loan on time thereby keeping the bank’s nonperforming assets (NPA) on the hold. This is achieved by feeding the past records of the customer who acquired loans from the bank into a trained machine learning model which could yield an accurate result. The prime focus of the paper is to determine whether or not it will be safe to allocate the loan to a particular person. This paper has the following sections (i) Collection of Data, (ii) Data Cleaning and (iii)Performance Evaluation. Experimental tests found that the Naïve Bayes model has better performance Evaluation.
-Experimental tests found that the Naïve Bayes model has better performance than other models in terms of loan forecasting.
 
 
-3. “Loan Prediction using machine learning model” Year2019whether or not it will be safe to allocate the loan to a particular person. This paper has the following sections 
-(i)Collection of Data, (ii) Data Cleaning and (iii) Performance
-Evaluation. Experimental tests found that the Naïve Bayes
-model has better performance than other models in terms of loan forecasting.With the enhancement in the banking sector lots of people are applying for bankloans but the bank has its limited assets which it has to grant to limited people only,so finding out to whom the loan can be granted which will be a safer option for the bank is a typical process. So in this project we try to reduce this risk factor behind selecting the safe person so as to save lots of bank efforts and assets. This is done by mining the Big Data of the previous records of the people to whom the loan was granted before and on the basis of these records/experiences the machine was trained using the machine learning model which give the most accurate result.
+With the enhancement in the banking sector lots of people are applying for bankloans but the bank has its limited assets which it has to grant to limited people only,so finding out to whom the loan can be granted which will be a safer option for the bank is a typical process. So in this project we try to reduce this risk factor behind selecting the safe person so as to save lots of bank efforts and assets. This is done by mining the Big Data of the previous records of the people to whom the loan was granted before and on the basis of these records/experiences the machine was trained using the machine learning model which give the most accurate result.
 The main objective of this project is to predict whether assigning the loan to particular person will be safe or not.
 This paper is divided into four sections (i)Data Collection (ii)Comparison of machine learning models on collected data(iii) Training of system on most promising model(iv) Testing.
 In this paper we are predict the loan data by using some machine learning algorithms they are classification,
@@ -62,7 +58,6 @@ Result (output)
 
 4. SYSTEM ARCHITECTURE
 
-Fig -1: Loan Prediction Architecture
 Implementation Details (Modules):
 4.1. Loan Dataset :
 Loan Dataset is very useful in our system for prediction of more accurate result. Using the loan Dataset the system will automatically predict which costumer’s loan it should approve and which to reject. System will accept loan application form as an input. Justified format of application form should be given as an input to get processed.
@@ -75,13 +70,10 @@ Typically , Here the system separate a dataset into a training set and testing s
 InData cleaning the system detect and correct corrupt or inaccurate records from database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing , modifying or detecting the dirty or coarse data. In Data processing the system convert data from a given form to a much more usable and desired form i.e. make it more meaningful and informative.
  
 4.4. Models used :
-1) SVM:
+ SVM:
 In this approach, each data item is plotted in a ndimensional space, where n represents the number of features with each feature represented in a corresponding co-ordinates. A hyper plane is determined to distinguish the classes (possibly two) based on their features.
 
-2) Naïve Bayes (NB) Model :
-The basis for NB model is Bayes Theorem (BT), where events are mutually exclusive similar to rolling a die.Moreover, the BT presumes that the input features also referred aspredictors are independent in nature.
-Similarly, NB also presumes that the input features are independent in nature. But, this is impossible in the realistic procedures.
-Since this assumption leads to naïve, this algorithm is termed as Naïve Bayes algorithm. Thus, NB is a probabilistic algorithm, where the conditional probability is determined regarding the input features. On the other hand, during the dependent input features scenario, conditional probability is calculated twice resulting in improper results. Hence, for better prediction results with respect to NB model, independent input features are selected and processed.dataset collected from Kaggle source. The feature in the dataset include--->
+ The feature in the dataset include--->
 1. Aplication_Id
 2. Gender
 3. Marital Status
@@ -101,36 +93,22 @@ The following shows the pseudo code for the proposed loan prediction method-
 1. Load the data
 2. Determine the training and testing data
 3. Data cleaning and pre-processing.
-a) Fill the missing values with mean values regarding
-numerical values.
-b) Fill the missing values with mode values regarding
-categorical variables.c) Outlier treatment.
+a) Fill the missing values with mean values regarding numerical values.
+b) Fill the missing values with mode values regarding categorical variables.c) Outlier treatment.
 4. Apply the modelling for prediction
 a) Removing the load identifier
 b) Create the target variable (based on the requirement).
 In this approach, target variable is loan-status
-c) Create a dummy variable for categorical variable (if
-required) and split the training and testing data for
-validation.
+c) Create a dummy variable for categorical variable (if required) and split the training and testing data for validation.
 d) Apply the model: NB method, SVM method
 5. Determine the accuracy followed by confusion Matrix.
 5.1. SYSTEM FEATURES
- Data collection.
+ Data collection.
 • Data cleaning and preprocessing
 • Model selection
 • Data verification
 • Classification.
 • Report deliver.
-6. MATHEMATICAL MODEL
-
-
-
-
-
-
-
-
-
 
 
 
